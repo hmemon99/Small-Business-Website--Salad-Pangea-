@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Project Starts Here */
+/** {
+  outline: solid 1px red;
+}*/
+
+.Top {
+  top: 0;
+  height: 60px;
+  /*background-color: black;*/
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*background-image: url(http://i59.tinypic.com/fxt72b.png);*/
+  background-image: url(http://i59.tinypic.com/risqwl.png);
+}
+.bar {
+  margin: 0 auto;
+  width: 100%;
+}
+.bottom {
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(http://i59.tinypic.com/risqwl.png);
+  background-color: black;
+}
+.bartwo {
+  margin: 0 auto;
+  width: 100%;
+}
+.header {
+  color: white;
+  vertical-align: middle;
+  font-family: Garamond;
+  font-size: 24px;
+  text-decoration: none;
+  float: right;
+  margin-right: 75px;
+  word-spacing: 18px;
+  margin-top: 12px;
+}
+.header:hover {
+  color:black;
+}
+.footer {
+  color:white;
+  vertical-align: middle;
+  font-family: Garamond;
+  font-size: 20px;
+  float: right;
+  margin-right: 75px;
+  word-spacing: 14px;
+  margin-top: 18px;
+  text-decoration: none;
+}
+.footer:hover {
+  color:black;
+}
+.title {
+  font-size: 34px;
+  font-family: Garamond;
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  float: left;
+  margin-left: 15px;
+  margin-top: 16px;
+  color: white;
+  font-family: Garamond;
+  font-size: 24px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.landing {
+  /*background-image: url(http://www.wallpafer.com/wp-content/uploads/2014/02/Salad-desktop-wallpaper-1080p-photo.jpg);*/
+  background-image: url(http://wallpaperscraft.com/image/salad_greens_tomatoes_close-up_78330_3840x1200.jpg?orig=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 36px;
+  height: 630px;
+}
+.middle {
+  display: inline-block;
+  margin-top: 250px;
+  margin-left: 350px;
+  /*margin-left: 100px;*/
+  float: center;
+  text-align: center;
+  color: white;
+  /*border: 3px black solid;*/
+  width: 600px;
+}
+#cards {
+  float: left;
+  display: block;
+  height: 250px;
+  margin-top: 70px;
+  margin-left: 250px;
+}
+#menu {
+  float: left;
+  display: block;
+  height: 250px;
+  width: 405px;
+  margin-top: 85px;
+  margin-left: 250px;
+}
+/*.Info {
+  display: block;
+  padding: 75px;
+  /*background-image: url(http://i62.tinypic.com/5ysol0.jpg);
+}*/
+.third {
+  /*background-image: url(http://i59.tinypic.com/fxt72b.png);*/
+  background-image: url(http://i59.tinypic.com/risqwl.png);
+  height: 400px;
+  display: block;
+}
+.description {
+  display: block;
+  /*margin-top: 200px;*/
+  margin-top: 30px;
+  margin-right: 200px;
+  height: 50px;
+  width: 400px;
+  font-family: garamond;
+  color: white;
+  float: right;
+}
+.ingredients {
+  font-size: 18px;
+  display: block;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 285px;
+  font-family: Garamond;
+  color: white;
+  float: right;
+}
+#info {
+  display: inline-block;
+  font-size: 36px;
+  float: right;
+  margin-right: 350px;
+  margin-top: 130px;
+}
+#options {
+  display: inline-block;
+  font-size: 36px;
+  float: right;
+  margin-right: 410px;
+  margin-top: 130px;
+}
+/*.adventure {
+  display: inline-block;
+  float: right;
+  margin-top: 100px;
+  margin-right: 20px;
+  color: black;
+  width: 275px;
+  font-family: Garamond;
+  border: 3px solid black;
+}*/
+.menu {
+  height: 400px;
+  display: block;
+  /*background-image: url(http://i58.tinypic.com/e801tw.png);*/
+  background-image: url(http://i59.tinypic.com/fxt72b.png);
+}
+
